@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 10 Coding Assignment</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head><br>
+<body class="container">
+    
+  <h1>Register your Character Here!</h1>
+
+    <form>
+        <div class="form form-group form bg-light">
+          <label for="character">Character Name</label>
+          <input type="text" class="form-control" placeholder="Character Name" id="character">
+        </div>
+        <div class="form-group form bg-light">
+          <label for="level">Character Level</label>
+          <input type="text" class="form-control" placeholder="Character Level" id="level">
+        </div>
+        <div class="form-group form bg-light">
+            <label for="class">Character Class</label>
+            <input type="text" class="form-control" placeholder="Character Class" id="class">
+          </div>
+        <div class="form-group form bg-light">
+            <label for="race">Character Race</label>
+            <input type="text" class="form-control" placeholder="Character Race" id="race">
+          </div>
+        
+        </div>
+        <button id="add" class="btn btn-primary form-control">Submit</button>
+      </form><br>
+      <table id="list" class="table table-dark table-striped">
+        <tr>
+            <th>Character</th>
+            <th>Level</th>
+            <th>Class</th>
+            <th>Race</th>
+            
+        </tr>
+    </table>
+
+    <script src="Week10CodingAssignment.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
